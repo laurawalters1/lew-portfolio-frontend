@@ -2,7 +2,15 @@ import React from 'react'
 
 
 
+
+
 export const TechnologyData = [
+    {
+        icon: "devicon-go-original-wordmark colored"
+    },
+    {
+        icon: "devicon-terraform-plain-wordmark colored",
+    },
     {
         icon:'devicon-javascript-plain colored'
     },

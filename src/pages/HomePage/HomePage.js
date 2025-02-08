@@ -5,6 +5,7 @@ import WorkHistory from "../../components/WorkHistory/WorkHistory";
 import pic from "../../images/laurawalters4.jpeg";
 import laura from "../../images/laurawalters5.png";
 import jumar from "../../images/jumar.png";
+import gymshark from "../../images/gymshark.png";
 import jumarScrum from "../../images/jumarScrum.png";
 import CLPT from "../../images/CLPT.png";
 import edx from "../../images/edx.png";
@@ -21,11 +22,9 @@ export default function HomePage() {
           </h1>
         </div>
         <p className="bio text-center w-50 mb-5">
-          At an early stage in my software development career, I am keen to
-          seize opportunities to take on new challenges, expose myself to new
-          technologies and expand my skills. I currently work as a graduate
-          software developer at Jumar, and enjoy the collaborative and agile
-          process we use to develop solutions.
+          Software engineer working in an agile development environment,
+          utilising serverless technologies & event driven architecture to solve
+          user problems
         </p>
 
         <div className="link-container position-relative d-flex flex-column align-items-center">
@@ -48,10 +47,22 @@ export default function HomePage() {
       </div>
       <div className="mb-5 d-flex flex-column align-items-center">
         <WorkHistory
+          title={"Gymshark - Software Engineer"}
+          imageUrl={gymshark}
+          date={"June 2023 - Present"}
+          description="In my current role I am working in agile development, ideating solutions to business problems using serverless and event driven architecture. In this role I bring both technical and business value, looking at how we can innovate with new technologies to improve our development process, as well as engaging closely with stakeholders to ensure our solutions are built with the user in mind"
+          alignment={"text-start"}
+          techUsed={[
+            "devicon-go-original-wordmark colored",
+            "devicon-amazonwebservices-plain-wordmark colored",
+            "devicon-terraform-plain-wordmark colored",
+          ]}
+        ></WorkHistory>
+        <WorkHistory
           title={"Jumar - Graduate Software Developer"}
           imageUrl={jumar}
-          date={"Jan 2023 - Present"}
-          description="In my current role I am working in agile development, creating an
+          date={"Jan 2023 - June 2023"}
+          description="In this role I worked in agile development, creating an
         internal dashboard to be used for viewing data relating to the
         recruitment side of the business. To do this I am using C# to query
         data from an external api, an Azure Data factory to flatten the JSON
